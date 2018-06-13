@@ -11,11 +11,52 @@ body {
 
 nav {
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
   position: fixed;
   width: 420px;
+  background-color: black;
 }
 
 .restaurant-list {
-  padding-top: 50px;
+  padding-top: 40px;
+}
+
+.arrow-left{
+  padding: 10px;
+}
+
+.location{
+  background-color: #dadada;
+  border-bottom: 1px solid black;
+  height: 50px;
+  padding: 10px;
+}
+
+.location:hover{
+  background-color: #bababa;
+}
+
+.content{
+  float: left;
+  width: 90%;
+}
+
+.arrow{
+  float: right;
+  padding-top: 19px;
+  width: 10%;
+}
+
+h1 {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 0px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+h3 {
+  font-size: 13px;
+  padding-left: 5px;
+  font-weight: normal;
+  line-height: 0px;
 }
